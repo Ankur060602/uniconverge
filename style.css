@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+  background: url("images/back.png");
+  background-size: cover;
+  background-color: rgba(33, 6, 142, 0.878);
+  height: 85vh;
+  margin-bottom: 65px;
+}
+
+
+.mid-card{
+  position:absolute;
+  top:110%;
+  left: 20%;
+  border: 1px solid balck;
+  color: #ffffff;
+}
+.mid-card1{
+  position:absolute;
+  top:110%;
+  left: 40%;
+  color: #ffffff;
+}
+.mid-card2{
+  position:absolute;
+  top:110%;
+  left: 60%;
+  color: #ffffff;
+}
+.mid-card3{
+  position:absolute;
+  top:110%;
+  left: 80%;
+  color: #ffffff;
+}
+
+.b-card{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+height: 100%;
+}
+
+.benefit{
+  overflow: hidden;
+  height: 250px;
+  width: 334px;
+  background: url("images/back1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 30px;
+  box-shadow: -4px 10px 15px -3px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.benefits{
+  height: 80vh
+}
+
+.o-card{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  margin: 10px;
+}
+
+.option{
+  border: 3px solid #4C409C;
+  border-radius: 3px;
+  width: 300px;
+  padding: 10px;
+}
+
+/* .icons img{
+  border: 1px solid black;
+} */
+
+.option .buttons button{
+  background-color: white;
+  padding: 7px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 3px;
+}
+
+.tools{
+  background-color: #4C409C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.fill-button {
+  display: inline-block;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  width: 190px;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #000000;
+  background: linear-gradient(to right, #F9BB06 50%, #ffffff 50%);
+  background-size: 200% 110%;
+  background-position: right bottom;
+  transition: all 0.4s ease-out;
+  border: 1px solid #4C409C;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  margin: 8px;
+}
+
+.fill-button:hover {
+  background-position: left bottom;
+  color: #ffffff;
+}
+
+.general a{
+  width: 1150px;
+  text-align: left;
+}
+
+.general .collapse{
+  margin: 10px auto 10px;
+  width: 1150px;
+}
+
+.faqs{
+  padding: 50px 300px 50px;
+}
+.footer{
+  background: url("images/footer.png");
+  background-size: cover;
+  height:55vh;
+}
+span{
+  color: #F9BB06;
+}
+.option .value{
+  background-color: #241b62;
+              color: #fff;
+              width: 70px;
+              padding: 5px;
+}
+.hero2{
+background: url("images/v1.png");
+background-size: contain;
+background-repeat: no-repeat;
+}
+.hero2 h1{
+  font-size: 3rem;
+}
+.benefit p{
+  font-size: .8rem;
+  padding: 10px;
+}
+.options{
+  height: 80vh; margin: 40px;
+  overflow: hidden;
+}
+
+.benefit h4{
+  padding: 5px;
+  text-align: center;
+}
+
+.links{
+  background-color: #241b62; color: #fff; height: 50px;
+
+}
+.role{
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.certificate{
+  height: 80vh;
+  background: url(images/back2.png);
+  padding: 0 160px 50px;
+  margin-top: 40px;
+}
+
+
+  @media (max-width: 992px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+
+    .links{
+      height: 100%;
+      padding: 10px;
+    }
+    .b-card{
+      display: block;
+      width: 100%;
+      margin: auto;
+    }
+    .benefits{
+      height: 100%;
+      margin: auto;
+    }
+    .benefit{
+      margin: 10px auto 10px;
+      background-size: cover;
+    }
+    .o-card{
+      display: block;
+    }
+    .options{
+      height: 100%;
+      margin: auto;
+      width: 100%;
+    }
+    .option{
+      margin: 10px auto 10px;
+      background: url(images/h.png);
+      color: #fff;
+    }
+
+    .value{
+      background-color: #F9BB06;
+    }
+    .tools{
+      width: 100%;
+      height: 100%;
+      margin: 50px auto 50px;
+      padding: 20px;
+    }
+
+    .mid-card,
+    .mid-card1,
+    .mid-card2,
+    .mid-card3 {
+      position: relative; /* Change position to relative for stacking */
+      top: initial;
+      left: 70%;
+      margin-bottom: 20px; /* Add spacing between elements */
+    }
+
+    .role{
+      height: 100%;
+      margin: 80px 40px 80px;
+
+    }
+    .certificate{
+      padding: 10px;
+      margin: auto;
+      height: 100%;
+      align-items: center;
+    }
+    .hero2 h1{
+      font-size: 2.5rem;
+      padding: 20px;
+    }
+    .faqs{
+      padding: 80px 40px 40px 40px;
+      height: 100%;
+    }
+    .general a{
+      width: 400px;
+    }
+    .general .collapse{
+      width: 400px;
+    }
+  }
+
+  @media (max-width: 576px){
+    *{
+      overflow-x: hidden;
+    }
+    .hero{
+      height: 100%;
+    }
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+
+    .links{
+      height: 100%;
+      padding: 10px;
+    }
+    .b-card{
+      display: block;
+      width: 100%;
+      margin: auto;
+    }
+    .benefits{
+      height: 100%;
+      margin: auto;
+    }
+    .benefit{
+      margin: 10px auto 10px;
+      background-size: cover;
+    }
+    .o-card{
+      display: block;
+    }
+    .options{
+      height: 100%;
+      margin: auto;
+      width: 100%;
+    }
+    .option{
+      margin: 10px auto 10px;
+    }
+    .tools{
+      width: 100%;
+      height: 100%;
+      margin: 50px auto 50px;
+      padding: 20px 40px 40px 20px;
+    }
+
+    .toption{
+      margin: 20px 50px 0px 50px;
+    }
+    .toption2{
+      margin: 0px 50px 50px;
+    }
+
+    .mid-card,
+    .mid-card1,
+    .mid-card2,
+    .mid-card3 {
+      position: relative; /* Change position to relative for stacking */
+      top: initial;
+      left: 60%;
+      margin-bottom: 40px;
+      padding-top: 20px;
+      height: 100%;
+    }
+
+    .hero-button{
+      margin-bottom: 120px;
+    }
+
+    .role{
+      height: 100%;
+      margin: 80px 40px 80px;
+
+    }
+    .certificate{
+      padding: 10px;
+      margin: auto;
+      height: 100%;
+      align-items: center;
+    }
+    .hero2 h1{
+      font-size: 2.5rem;
+      padding: 20px;
+    }
+    .faqs{
+      padding: 80px 40px 40px 40px;
+      height: 100%;
+    }
+    .general a{
+      width: 250px;
+    }
+    .general .collapse{
+      width: 250px;
+    }
+  }
